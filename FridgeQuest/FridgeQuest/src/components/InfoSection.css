@@ -1,0 +1,37 @@
+.infoSectionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--var2);
+}
+
+
+.infoSectionContainer h2 {
+    font-size: 2rem;
+    color: var(--var1);
+}
+
+.infoStepContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infoStep {
+    background-color: var(--var4);
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.infoStep:hover {
+    transform: scale(1.05);
+    background-color: var(--var3);
+
+}
+.infoStep h3, p{
+    color: var(--var2);
+}

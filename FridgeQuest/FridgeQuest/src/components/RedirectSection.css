@@ -1,0 +1,55 @@
+.redirectSection{
+    display: flex;
+}
+.redirectSectionLeftContainer{
+    background-color: var(--var5);
+}
+.redirectSectionLeftContainer h2{
+    color: white;
+}
+.redirectSectionLeftContainer p{
+    color: var(--whiteText);
+}
+.redirectSectionRightContainer{
+    background-color: var(--var3);
+}
+.redirectSectionRightContainer h2{
+    color: white;
+}
+.smallContainer{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+
+}
+.cookButton {
+    background-color: var(--var4);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+    animation: pulse 2s infinite;
+    transition: background-color 0.3s ease;
+}
+
+.cookButton:hover {
+    background-color: var(--var1);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
